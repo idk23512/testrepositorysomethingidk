@@ -1,0 +1,26 @@
+{
+    "name": "op die mod",
+    "author": "steve",
+    "version": "1.0.0",
+    "description": "adds op die",
+    "dice": [
+        {
+            "ide": "mysterious_cube",
+            "rarity": 1,
+            "prio": 500,
+            "sprite": "sprites/mysterious_cube.png",
+            "faces": [
+                {"value": 3492},
+                {"value": 9462},
+                {"value": 12654}
+            ],
+            "faces_desc": "[spr_dice_icon,0] 3492/9462/12654",
+            "tag": ["faces_even"],
+            "kw": ["face"],
+            "effect": { "type": "mult_all", "value": 50000 },
+            "title": "Mysterious Cube",
+            "description": "Multiplies all dice by 50000."
+        }
+    ],
+    "rings": []
+}
